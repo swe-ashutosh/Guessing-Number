@@ -6,12 +6,12 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
+import java.util.Scanner;
 import org.hibernate.annotations.CreationTimestamp;
 
 
 @Entity
-public class User {
+public class  {
 	@Id
 	@GeneratedValue
 	private int id;
